@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || "ᴘᴜᴛ ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ ʜᴇʀᴇ."
+global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~vlhzHLxI#pyrD5AkzqrrmMdz9L77g5L-YZj8uEf7mZUP26y168SE."
 global.botname = process.env.BOTNAME || "KAVI-X MD"
 global.ownernumber = process.env.OWNERNUMBER || "94702128378"
 global.ownername = process.env.OWNERNAME || "Cyber Kavi"
@@ -13,7 +13,7 @@ global.author = process.env.AUTHOR || "Cyber Kavi"
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
 global.restart = process.env.RESTART || true
-global.mongoDB = process.env.MONGODB_URI || "ᴘᴜᴛ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ᴜʀɪ ʜᴇʀᴇ."
+global.mongoDB = process.env.MONGODB_URI || "mongodb+srv://wanahac344:4H11Ip35dqZCGJg7@cluster0.3blbqc1.mongodb.net/chathusha-0788491162?retryWrites=true&w=majority&appName=Cluster0."
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
